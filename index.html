@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors & more designing</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(167, 174, 180);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(21, 16, 10);
+        }
+
+        a.hover {
+            color: black;
+            background-color: rgb(239, 230, 232);
+        }
+
+        a:visited {
+            color: blueviolet;
+            background-color: brown;
+        }
+
+        a.active {
+            background-color: blue;
+        }
+
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: aquamarine;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        } 
+        .btn:hover{
+            color: aqua;
+            background-color: rgb(179, 33, 164);
+            border: 2px solid black;
+        }   
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3> This my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas repudiandae at dolores laboriosam
+            earum est aut
+            reiciendis impedit quam veniam minus cumque suscipit sit blanditiis, rem vel numquam optio tenetur nostrum
+            similique vero!</p>
+        <a href=" hptts//:facebook.com" class="btn"> Read more</a>
+        <batton class="btn"> contact us</batton>
+    </div>
+</body>
+
+</html>
